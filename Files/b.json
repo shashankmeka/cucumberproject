@@ -1,0 +1,294 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-09T16:54:56.753Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4168000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination.hook2.setUp1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 537200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination.hook2.setUp2()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Test Regration Free CRM",
+        "description": "",
+        "id": "test-the-free-crm-url;test-regration-free-crm",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination.hook2.tearDown2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 573400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination.hook2.tearDown1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7507261100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 452400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefination.hook3.setup()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "user enter url",
+            "match": {
+              "location": "StepDefination.FreeCRMTest.user_enter_url()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefination.hook3.teardown()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15034947900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 998100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefination.hook3.setup()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "user enter username and password",
+            "match": {
+              "location": "StepDefination.FreeCRMTest.user_enter_username_and_password()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1058700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefination.hook3.teardown()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 171551400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefination.hook3.setup()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "user click on login button",
+            "match": {
+              "location": "StepDefination.FreeCRMTest.user_click_on_login_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1334000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefination.hook3.teardown()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 56848800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefination.hook3.setup()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "user is on homepage",
+            "match": {
+              "location": "StepDefination.FreeCRMTest.user_is_on_homepage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefination.hook3.teardown()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3347065300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefination.hook3.setup()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "user click on contact page",
+            "match": {
+              "location": "StepDefination.FreeCRMTest.user_click_on_contact_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 958700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefination.hook3.teardown()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3494421400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 998200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefination.hook3.setup()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "user is on contact page",
+            "match": {
+              "location": "StepDefination.FreeCRMTest.user_is_on_contact_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefination.hook3.teardown()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20473861300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefination.hook3.setup()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "user fillup the contact page details",
+            "match": {
+              "location": "StepDefination.FreeCRMTest.user_fillup_the_contact_page_details()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefination.hook3.teardown()"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Test the Free CRM URL",
+    "description": "",
+    "id": "test-the-free-crm-url",
+    "keyword": "Feature",
+    "uri": "file:Features/FreeCRM.feature",
+    "tags": []
+  }
+]

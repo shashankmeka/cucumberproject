@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="0.489">
+    <testcase classname="test purchase process" name="sanity_testing" time="0.025">
+        <system-out><![CDATA[Then enter purchase somethings..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="test purchase process" name="regression_test" time="0.006">
+        <system-out><![CDATA[Then user do the payment....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="test purchase process" name="regrassion_test" time="0.008">
+        <system-out><![CDATA[Then Payment done...........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="test purchase process" name="end_test" time="0.004">
+        <system-out><![CDATA[Then give receipt to user...................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="0.288">
+    <testcase classname="test Application" name="sanity testing" time="0.028">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Then enter purchase somethings..............................................undefined
+]]></failure>
+    </testcase>
+    <testcase classname="test Application" name="regression test" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Then user do the payment....................................................undefined
+]]></failure>
+    </testcase>
+    <testcase classname="test Application" name="end test" time="0">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Then Payment done...........................................................undefined
+]]></failure>
+    </testcase>
+</testsuite>
